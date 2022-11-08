@@ -1,4 +1,6 @@
 "use strict";
+// ========= Questão 1 =============
+alert("Questão 1 no console log do Vs code");
 // questão 1 
 let texto1 = "*******************************************************************";
 let texto2 = "BEM-VINDO AO MEU PROGRAMA";
@@ -33,13 +35,13 @@ function VerificaSeSim(pergunta) {
         alert("Parabéns!");
     }
     else if (pergunta == "nao") {
-        alert("Digite Apenas Sim ou Não:");
+        prompt("Digite Apenas Sim ou Não:");
     }
     else {
-        alert("Você tem noções dos seus atos?");
+        prompt("Você tem noções dos seus atos?");
     }
 }
-VerificaSeSim(prompt('Digite sim ou nao'));
+alert(VerificaSeSim(pergunta));
 // ========= Questão 4 =============
 alert("Questão 4");
 //questão 4 

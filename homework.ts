@@ -1,3 +1,5 @@
+// ========= Questão 1 =============
+alert("Questão 1 no console log do Vs code")
 // questão 1 
 let texto1: string =   "*******************************************************************";
 let texto2: string =     "BEM-VINDO AO MEU PROGRAMA";
@@ -17,11 +19,8 @@ function exibirTexto(frase: string){
     return console.log(frase)
   }
 
-
 // ========= Questão 2 =============
-
 alert("Questão 2")
-
 //questão 2 
 let numero1: string | null = prompt('Digite um número') || ''
 let numero2: string | null = prompt('Digite um número') || ''
@@ -34,7 +33,6 @@ alert('A soma é igual ' + soma(numero1,numero2))
 
 
 // ========= Questão 3 =============
-
 alert("Questão 3")
 // questão 3
 let pergunta: string | null = prompt("Digite Sim ou Não: ") || '';
@@ -42,16 +40,15 @@ function VerificaSeSim(pergunta: string | null){
     if (pergunta == "sim") {
            alert("Parabéns!");
         } else if (pergunta == "nao") {
-          alert("Digite Apenas Sim ou Não:");
+          prompt("Digite Apenas Sim ou Não:");
         } else {
-          alert("Você tem noções dos seus atos?");
+          prompt("Você tem noções dos seus atos?");
         }
       }
-VerificaSeSim(prompt('Digite sim ou nao'));
+alert(VerificaSeSim(pergunta));
 
 
 // ========= Questão 4 =============
-
 alert("Questão 4")
 //questão 4 
 let nomeCliente: string | null = prompt("Digite seu nome: ") || '';
@@ -65,7 +62,6 @@ alert(alertaAtendente(nomeCliente, nomeAtendente));
 
 
 // ========= Questão 5 =============
-
 alert("Questão 5")
 // // questão 5 
 let segundos: string | null = prompt("Digite um numero em segundos: ") || '';
@@ -83,9 +79,7 @@ function convertesegundos(segundos: string): number{
 alert(converteHoras(segundos) + ' horas ' +  converteminutos(segundos,converteHoras(segundos)) + ' minutos ' +  convertesegundos(segundos) + ' segundos ');
 
 
-
 // ========= Questão 6 =============
-
 alert("Questão 6")
 //questão 6 
 let ano: string | null = prompt("Digte um ano ") || '';
@@ -99,7 +93,6 @@ function bissexto(ano: string): boolean {
 
 
  // ========= Questão 7 =============
-
  alert("Questão 7 - pegadinha")
 //  questão 7
       function fazPegadinha() {
@@ -115,10 +108,7 @@ function bissexto(ano: string): boolean {
       }
       fazPegadinha();
 
-
-
 // ========= Questão 8 =============
-
 alert("Questão 8")
 //questão 8
 let num1: string | null = prompt("Digite um número: ") || '';
@@ -145,7 +135,6 @@ function resolvendo(num1: string, num2: string){
 
 
 // ========= Questão 9 =============
-
 alert("Questão 9")
 // questão 9 
 let carlos: number = 28;
@@ -156,7 +145,6 @@ let luiza: number = 20;
 function subtracaoCarlosEAna(carlos: number, ana: number): number{
          return carlos-ana;
 }
-
 
  function subtracaoLuizaEIrmaLuiza(irmaLuiza: number, Luiza: number): number{
                 return irmaLuiza-Luiza;
@@ -169,8 +157,6 @@ function concatenacaoIdades(subtracaoCarlosEAna: number, subtracaoLuizaEIrmaLuiz
 alert("A nossa diferença de idade é " +  subtracaoCarlosEAna(carlos, ana));
 alert ("A minha diferença de idade com a minha irma é de " + subtracaoLuizaEIrmaLuiza(irmaLuiza,luiza) + " anos");
 alert("A concatenacao das idades é " + concatenacaoIdades(subtracaoCarlosEAna(carlos, ana), subtracaoLuizaEIrmaLuiza(irmaLuiza,luiza)) + " anos"); 
-
-
 
 // ========= Questão 10 =============
 alert("Questão 10")
