@@ -4,8 +4,6 @@ This repository contains a collection of practical logic exercises implemented i
 
 ## Contents
 
-- Various logic exercises, including algorithm challenges, control structures, data structures, and more.
-- Reference solutions for each exercise, aiding in learning and comparing approaches.
-- Explanatory comments to understand the logic behind each solution.
+- Various logic exercises
 
 
